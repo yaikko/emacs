@@ -113,8 +113,8 @@
   (font-lock-negation-char-face         (:foreground red))
   (font-lock-comment-face               (:foreground overlay1 :italic t))
   (font-lock-comment-delimiter-face     (:foreground overlay2 :italic t))
-  (font-lock-doc-face                   (:foreground overlay2))
-  (font-lock-doc-markup-face            (:foreground overlay2))
+  (font-lock-doc-face                   (:foreground overlay2 :italic t))
+  (font-lock-doc-markup-face            (:foreground overlay2 :italic t))
   (font-lock-preprocessor-face	   		(:foreground overlay2))
   (elisp-shorthand-font-lock-face       (:foreground peach))
 
@@ -129,7 +129,7 @@
   (epa-mark                             (:foreground pink))
   (dired-mark                           (:foreground pink))
 
-  (trailing-rosewaterspace                  (:background surface1))
+  (trailing-rosewaterspace                  (:background base))
   
   ;; ;; Battery colors
   (doom-modeline-battery-critical       (:inherit 'error))
@@ -156,7 +156,8 @@
   (doom-modeline-error                  (:background red))
   (doom-modeline-info                   (:foreground overlay2))
   (doom-modeline-project-dir            (:foreground peach))
-  (doom-modeline-bar                    (:background lavender :foreground crust))
+  (doom-modeline-bar                    (:background mantle :foreground crust))
+  (doom-modeline-bar                    (:background base :foreground crust))
   (doom-modeline-panel                  (:inherit 'bold :background flamingo :foreground mantle))
   (doom-modeline                        (:foreground overlay1))
   (doom-themes-visual-bell              (:background red))
@@ -548,7 +549,7 @@
   (anzu-match-2 (:foreground yellow :background crust))
   (anzu-match-3 (:foreground teal :background crust))
 
-  (anzu-mode-line		(:foreground crust :background mauve))
+  (anzu-mode-line		(:foreground crust :background mantle))
   (anzu-mode-no-match	(:foreground text :background red))
   (anzu-replace-to		(:foreground yellow :background surface2))
 

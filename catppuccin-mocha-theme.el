@@ -114,8 +114,8 @@
   (font-lock-negation-char-face         (:foreground red))
   (font-lock-comment-face               (:foreground "#45475A" :italic t))
   (font-lock-comment-delimiter-face     (:foreground "#45475A" :italic t))
-  (font-lock-doc-face                   (:foreground overlay2))
-  (font-lock-doc-markup-face            (:foreground overlay2))
+  (font-lock-doc-face                   (:foreground overlay2 :italic t))
+  (font-lock-doc-markup-face            (:foreground overlay2 :italic t))
   (font-lock-preprocessor-face          (:foreground overlay2))
   (elisp-shorthand-font-lock-face       (:foreground peach))
 
@@ -130,7 +130,7 @@
   (epa-mark                             (:foreground pink))
   (dired-mark                           (:foreground pink))
 
-  (trailing-rosewaterspace              (:background surface1))
+  (trailing-rosewaterspace              (:background base))
 
   ;; battery colors
   (doom-modeline-battery-critical       (:inherit 'error))
@@ -571,8 +571,8 @@
   (anzu-match-2                                  (:foreground yellow :background crust))
   (anzu-match-3                                  (:foreground teal :background crust))
 
-  (anzu-mode-line                                (:foreground crust :background mauve))
-  (anzu-mode-no-match                            (:foreground text :background red))
+  (anzu-mode-line                                (:foreground mauve :background mantle))
+  (anzu-mode-no-match                            (:foreground mauve :background mantle))
   (anzu-replace-to                               (:foreground yellow :background surface2))
 
   (ace-jump-face-background                      (:foreground overlay2))
